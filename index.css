@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(211, 227, 237);   
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  10px;
+    margin-bottom: 20px;
+}
+.login-box{
+    background-color: rgb(235, 242, 242);
+    width: 405px;
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+label{
+    height: 30px;
+    margin-left: 6px;
+    margin-right: 80px;
+    margin-bottom: 15px;
+}
+input{
+    height: 30px;
+    width: 180px;
+    margin-bottom: 15px;
+}
+#name,#email{
+    margin-left: 22px;
+}
+#dob{
+    margin-left: -22px;
+}
+#check{
+    margin-left: 1px;
+
+}
+#acceptTerms{
+    width: 13px;
+    margin-left: 6px;
+}
+button{
+    margin-left: 6px;
+    background-color: rgb(80, 80, 242);
+    color: white;
+}
+#tab1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 6px 8px 6px;
+    margin-top: 5px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+    border-color: rgba(152, 152, 152, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+#tab2{
+    margin: auto;
+}
+#tab3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#user-entries{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: rgba(156, 163, 175, 0.5);
+}
+td{
+    border-width: 0 1px 1px 0;
+    /* border-left-width: 0px; */
+    border-style: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-color: brown;
+}
+th{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
